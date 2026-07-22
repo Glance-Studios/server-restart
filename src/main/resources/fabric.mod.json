@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "server-restart",
+  "version": "${version}",
+  "name": "Server Restart",
+  "description": "Server-side: gracefully restarts the server with a countdown, warning broadcasts, and a configurable disconnect message shown to players (instead of the vanilla \"Server closed\"). Requires a restart-on-exit launcher. Players install nothing.",
+  "authors": ["Cammy"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "server": [
+      { "adapter": "kotlin", "value": "dev.serverrestart.ServerRestartMod" }
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*",
+    "fabric-language-kotlin": ">=1.13"
+  }
+}
