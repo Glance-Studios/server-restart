@@ -4,7 +4,7 @@
   "version": "${version}",
   "name": "Server Restart",
   "description": "Server-side: gracefully restarts the server with a countdown, warning broadcasts, and a configurable disconnect message shown to players (instead of the vanilla \"Server closed\"). Requires a restart-on-exit launcher. Players install nothing.",
-  "authors": ["Cammy"],
+  "authors": ["Glance Studios"],
   "license": "MIT",
   "environment": "*",
   "entrypoints": {
